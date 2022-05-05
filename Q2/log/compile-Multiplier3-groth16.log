@@ -1,0 +1,42 @@
+powersOfTau28_hez_final_10.ptau already exists. Skipping.
+Compiling Multiplier3.circom...
+[0m[1m[38;5;9merror[T3001][0m[1m: Non quadratic constraints are not allowed![0m
+   [0m[34m┌─[0m "Multiplier3.circom":14:4
+   [0m[34m│[0m
+[0m[34m14[0m [0m[34m│[0m    [0m[31md <== a * b * c[0m;  
+   [0m[34m│[0m    [0m[31m^^^^^^^^^^^^^^^[0m [0m[31mfound here[0m
+   [0m[34m│[0m
+   [0m[34m=[0m call trace:
+     ->Multiplier3
+
+[31mprevious errors were found[0m
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open 'Multiplier3/Multiplier3.r1cs'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'Multiplier3/Multiplier3.r1cs'
+}
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open 'Multiplier3/Multiplier3.r1cs'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'Multiplier3/Multiplier3.r1cs'
+}
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open 'Multiplier3/circuit_0000.zkey'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'Multiplier3/circuit_0000.zkey'
+}
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open 'Multiplier3/circuit_final.zkey'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'Multiplier3/circuit_final.zkey'
+}
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open 'Multiplier3/circuit_final.zkey'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'Multiplier3/circuit_final.zkey'
+}

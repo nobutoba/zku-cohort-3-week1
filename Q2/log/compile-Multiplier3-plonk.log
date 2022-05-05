@@ -1,0 +1,40 @@
+powersOfTau28_hez_final_10.ptau already exists. Skipping.
+Compiling Multiplier3.circom...
+[32mtemplate instances[0m: 2
+non-linear constraints: 2
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 3
+private outputs: 0
+wires: 6
+labels: 11
+[32mWritten successfully:[0m _plonkMultiplier3/Multiplier3.r1cs
+[32mWritten successfully:[0m _plonkMultiplier3/Multiplier3.sym
+[32mWritten successfully:[0m _plonkMultiplier3/Multiplier3_js/Multiplier3.wasm
+[32mEverything went okay, circom safe[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Curve: bn-128
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Wires: 6
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Constraints: 2
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Private Inputs: 3
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Public Inputs: 0
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Labels: 11
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Outputs: 1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Plonk constraints: 3
+[32;22m[INFO]  [39;1msnarkJS[0m: Setup Finished
+[31;22m[ERROR] [39;1msnarkJS[0m: Error: zkey file is not groth16
+    at phase2contribute (/Users/nobutoba/.nvm/versions/node/v16.14.2/lib/node_modules/snarkjs/build/cli.cjs:4881:15)
+    at async clProcessor (/Users/nobutoba/.nvm/versions/node/v16.14.2/lib/node_modules/snarkjs/build/cli.cjs:304:27)
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open '_plonkMultiplier3/circuit_final.zkey'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '_plonkMultiplier3/circuit_final.zkey'
+}
+[31;22m[ERROR] [39;1msnarkJS[0m: [Error: ENOENT: no such file or directory, open '_plonkMultiplier3/circuit_final.zkey'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '_plonkMultiplier3/circuit_final.zkey'
+}

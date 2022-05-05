@@ -1,0 +1,79 @@
+Downloading powersOfTau28_hez_final_10.ptau
+--2022-05-09 09:53:44--  https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_10.ptau
+Resolving hermez.s3-eu-west-1.amazonaws.com (hermez.s3-eu-west-1.amazonaws.com)... 52.218.85.72
+Connecting to hermez.s3-eu-west-1.amazonaws.com (hermez.s3-eu-west-1.amazonaws.com)|52.218.85.72|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1262744 (1.2M) [application/octet-stream]
+Saving to: ‘powersOfTau28_hez_final_10.ptau’
+
+     0K .......... .......... .......... .......... ..........  4%  162K 7s
+    50K .......... .......... .......... .......... ..........  8%  163K 7s
+   100K .......... .......... .......... .......... .......... 12% 81.2K 9s
+   150K .......... .......... .......... .......... .......... 16% 67.3M 6s
+   200K .......... .......... .......... .......... .......... 20%  158K 6s
+   250K .......... .......... .......... .......... .......... 24%  170K 6s
+   300K .......... .......... .......... .......... .......... 28% 23.7M 5s
+   350K .......... .......... .......... .......... .......... 32%  163K 4s
+   400K .......... .......... .......... .......... .......... 36% 90.3K 5s
+   450K .......... .......... .......... .......... .......... 40%  189K 4s
+   500K .......... .......... .......... .......... .......... 44% 14.2M 4s
+   550K .......... .......... .......... .......... .......... 48% 24.9M 3s
+   600K .......... .......... .......... .......... .......... 52% 82.0K 3s
+   650K .......... .......... .......... .......... .......... 56%  163K 3s
+   700K .......... .......... .......... .......... .......... 60% 17.0M 3s
+   750K .......... .......... .......... .......... .......... 64%  163K 2s
+   800K .......... .......... .......... .......... .......... 68%  163K 2s
+   850K .......... .......... .......... .......... .......... 72% 20.3M 2s
+   900K .......... .......... .......... .......... .......... 77%  163K 1s
+   950K .......... .......... .......... .......... .......... 81% 81.8K 1s
+  1000K .......... .......... .......... .......... .......... 85%  205K 1s
+  1050K .......... .......... .......... .......... .......... 89%  186K 1s
+  1100K .......... .......... .......... .......... .......... 93%  164K 0s
+  1150K .......... .......... .......... .......... .......... 97% 16.5M 0s
+  1200K .......... .......... .......... ...                  100%  108K=6.6s
+
+2022-05-09 09:53:52 (188 KB/s) - ‘powersOfTau28_hez_final_10.ptau’ saved [1262744/1262744]
+
+Compiling HelloWorld.circom...
+[32mtemplate instances[0m: 1
+non-linear constraints: 1
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 4
+labels: 4
+[32mWritten successfully:[0m HelloWorld/HelloWorld.r1cs
+[32mWritten successfully:[0m HelloWorld/HelloWorld.sym
+[32mWritten successfully:[0m HelloWorld/HelloWorld_js/HelloWorld.wasm
+[32mEverything went okay, circom safe[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Curve: bn-128
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Wires: 4
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Constraints: 1
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Private Inputs: 2
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Public Inputs: 0
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Labels: 4
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Outputs: 1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		4289918f b00ce352 b426119d 49059905
+		382c440e 3439767d b58836b9 6ce102b4
+		ea11be67 46375b98 850f3fe6 d5db5730
+		122e33c7 65c9a1ec 5e9480aa cbb49b5d
+[36;22m[DEBUG] [39;1msnarkJS[0m: Applying key: L Section: 0/2
+[36;22m[DEBUG] [39;1msnarkJS[0m: Applying key: H Section: 0/4
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		4289918f b00ce352 b426119d 49059905
+		382c440e 3439767d b58836b9 6ce102b4
+		ea11be67 46375b98 850f3fe6 d5db5730
+		122e33c7 65c9a1ec 5e9480aa cbb49b5d
+[32;22m[INFO]  [39;1msnarkJS[0m: Contribution Hash: 
+		9d4c0c9c 90298f7d 9ddee913 e8885b51
+		9450f8cc fe8e1f20 c86b3541 b7fa17c8
+		8979adeb f8c7b291 80f05cbb 7cce2b23
+		783394ea 0ed47663 d07517dd 23f8ec0e

@@ -1,0 +1,45 @@
+mkdir: Multiplier3: File exists
+powersOfTau28_hez_final_10.ptau already exists. Skipping.
+Compiling Multiplier3.circom...
+[32mtemplate instances[0m: 2
+non-linear constraints: 2
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 3
+private outputs: 0
+wires: 6
+labels: 11
+[32mWritten successfully:[0m Multiplier3/Multiplier3.r1cs
+[32mWritten successfully:[0m Multiplier3/Multiplier3.sym
+[32mWritten successfully:[0m Multiplier3/Multiplier3_js/Multiplier3.wasm
+[32mEverything went okay, circom safe[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Curve: bn-128
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Wires: 6
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Constraints: 2
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Private Inputs: 3
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Public Inputs: 0
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Labels: 11
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Outputs: 1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		d450100e 589c0685 76e9e3ce 2e0e71e6
+		f90f89fa 1f8a17ca d07b0ad4 4c044ecd
+		ff825273 9185368e 1ba6de7a 349f2472
+		2b974d2d 2dd40cc2 343a6a01 b6d826e6
+[36;22m[DEBUG] [39;1msnarkJS[0m: Applying key: L Section: 0/4
+[36;22m[DEBUG] [39;1msnarkJS[0m: Applying key: H Section: 0/4
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		d450100e 589c0685 76e9e3ce 2e0e71e6
+		f90f89fa 1f8a17ca d07b0ad4 4c044ecd
+		ff825273 9185368e 1ba6de7a 349f2472
+		2b974d2d 2dd40cc2 343a6a01 b6d826e6
+[32;22m[INFO]  [39;1msnarkJS[0m: Contribution Hash: 
+		94ca9113 72a661be 0a3e5931 5bd3fad4
+		369afbda 1ae87003 e9be7957 6ca59a90
+		378ab429 1c89bc5e cdd05d28 3a3a7a1e
+		13de4654 0594d58b 9caa0a16 c04b3107
