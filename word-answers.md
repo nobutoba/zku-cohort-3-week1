@@ -19,7 +19,7 @@
 SNARKs require a trusted setup in order to achieve the zero-knowledge property,
 as pointed out in the
 [original work](https://dl.acm.org/doi/abs/10.1145/2090236.2090263)
-that introduced zk-SNARK: 
+that introduced zk-SNARK:
 *"Recall that SNARKs do not require any set-up assumptions (i.e., are in the plain model). However, now that we seek the additional property of zero-knowledge, we cannot proceed in the plain model because otherwise we would obtain a two-message zero-knowledge protocol in the plain model, which is impossible"* (p.38).
 On the other hand,
 STARKs rely on [publicly verifiable randomness](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/),
@@ -78,7 +78,6 @@ Here, p is a large prime number which can be written as a 254-bit unsigned integ
 which is also an element of `F_p`.
 - In short, **the circuit in
 [`HelloWorld.circom`](./Q2/contracts/circuits/HelloWorld.circom) performs multiplication modulo a large prime p**.
-
 
 #### Part 2 Q2.2
 
