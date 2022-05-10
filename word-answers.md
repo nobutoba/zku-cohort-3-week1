@@ -329,6 +329,50 @@ informally speaking,
 template takes two input signals `in[0]` and `in[1]` and outputs
 the conditional expression `out = in[0] < in[1]`.**
 
+Lastly, I'd like to demystify the assertion statement
+`assert(n <= 252)`
+in the
+[`LessThan`](https://github.com/iden3/circomlib/blob/v2.0.3/circuits/comparators.circom#L89-L99)
+template.
+Recall that signals in Circom are elements of the finite field `F_p = Z/pZ` where
+
+```text
+p = 1888242871839275222246405745257275088548364400416034343698204186575808495617
+```
+
+is a large prime.
+Therefore, **strictly speaking,
+it is impossible to compare the magnitude of two signals** in the first place;
+in mathematical terms, the order relation on the integers `Z`
+does not decend to the quotient set `Z/pZ`.
+For example,
+the signal 0 is equivalent to the signal p,
+so we cannot say 0 is less than 1
+when both 0 and 1 are regarded as field elements.
+However, **it still makes sense to compare two signals
+after representing both of them as integers from 0 to p - 1, inclusive**.
+This type of comparison is what the
+[`LessThan`](https://github.com/iden3/circomlib/blob/v2.0.3/circuits/comparators.circom#L89-L99)
+template aims to do.
+Since the binary representation
+
+```text
+p = 0b10000101100101101010010010010111101111111110111010010111111101010011000011011011100010111101011000010110111000001010110101000111001010010001001110001100101100101101000111101010000100100010100001111100001111101011001001111110000000000000000000000000001
+```
+
+of the large prime p has length 254,
+if both input signals `in[0]` and `in[1]`,
+represented as integers within the range [0, ..., p-1],
+have at most n=252 bits,
+then the expression
+`in[0]+ (1<<n) - in[1]`
+evaluates to a signal that has a representation with at most 253 bits.
+In particular, `in[0]+ (1<<n) - in[1]` lies within the range [0, ..., p-1],
+and "overflow mod p" never occurs.
+This is how the assertion statement
+`assert(n <= 252)`
+arises.
+
 #### Part 3 Q1.3
 
 > Proving a number is within a range without revealing the actual number could be useful in applications like proving our income when applying for a credit card. In `contracts/circuits/RangeProof.circom`, create a template (not circuit, so don’t add `component main = ...`) that uses `GreaterEqThan` and `LessEqThan` to perform a range proof.
